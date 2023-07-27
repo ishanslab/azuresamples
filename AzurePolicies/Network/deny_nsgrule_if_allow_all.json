@@ -3,7 +3,7 @@
     "name": "enforce-nsg-on-subnet",
     "properties": {
         "displayName": "Deny all inbound NSG rule",
-        "description": "This policy denies the creation of network security group rules that allow all inbound traffic from source address "ANY", or "INTERNET" on destination ports" "*","22","3389"",
+        "description": "This policy denies the creation of network security group rules that allow all inbound traffic from source address ANY, or INTERNET on destination ports *,22,3389",
         "mode": "All",
         "parameters": {},
         "policyRule": {
