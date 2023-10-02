@@ -7,8 +7,8 @@ bash < (curl -sL https://raw.githubusercontent.com/ishanslab/azuresamples/main/a
 ```
 
 ```
-curl -sL https://raw.githubusercontent.com/ishanslab/azuresamples/main/azcliscripts/simpleaks.sh > simple.sh
-chmod +0777 simpl.sh
+curl -sL https://raw.githubusercontent.com/ishanslab/azuresamples/main/azcliscripts/simpleaks.sh > simpleaks.sh
+chmod +0777 simpleaks.sh
 
 ```
 
