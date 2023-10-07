@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # Assign the first argument to the PREFIX variable
 PREFIX=$1
 # If no prefix argument supplied, use "aks-default" as the default value
