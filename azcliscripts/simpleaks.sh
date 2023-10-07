@@ -40,7 +40,7 @@ CURRENT_IP=$(dig @resolver1.opendns.com ANY myip.opendns.com +short)
 az aks create -g $RG -n $AKSNAME -l $LOC \
   --node-count 3 \
   --network-plugin azure \
-  --api-server-authorized-ip-ranges $CURRENT_IP/32  --enable-managed-identity
+  --api-server-authorized-ip-ranges $CURRENT_IP/32 --generate-ssh-keys
  # --vnet-subnet-id $SUBNETID \
 
 
