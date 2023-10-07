@@ -31,8 +31,16 @@ kubectl apply -f https://raw.githubusercontent.com/ishanslab/azuresamples/main/A
 ```
 kubectl apply -f https://raw.githubusercontent.com/ishanslab/azuresamples/main/AKS/sampleyamls/votingapp.yaml -n your_namespace
 ```  
- 
+
+### You can create a simple **External** AKS using the following:  
+```
+curl -sL https://raw.githubusercontent.com/ishanslab/azuresamples/main/azcliscripts/simpleaks.sh > simpleaks.sh
+chmod +0777 simpleaks.sh
+#sh simpleaks.sh
+```   
+
 
 ### Ref:
-1. https://github.com/Azure-Samples/kubernetes-offer-samples/tree/main
+1. https://github.com/Azure-Samples/kubernetes-offer-samples/tree/main  
+2. https://learn.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-cli  
    
