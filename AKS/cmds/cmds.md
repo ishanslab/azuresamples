@@ -2,7 +2,7 @@
 
 ### List all pods in selected namesapces:  
 
-```
+```bash
 for ns in sample-ns test2 test3; do echo namespace - $ns &&  kubectl get pod -n $ns; done
 ```
 
