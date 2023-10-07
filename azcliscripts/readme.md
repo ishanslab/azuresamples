@@ -17,7 +17,13 @@ chmod +0777 simpleaks.sh
 ```
 curl -sL https://raw.githubusercontent.com/ishanslab/azuresamples/main/azcliscripts/aks_n_app.sh > aks_n_app.sh
 chmod +0777 aks_n_app.sh
+# aks_n_app.sh
 
+```
+
+## YOu can also pass a prefix that will be used in the name for AKS and the resource group  
+```
+sh aks_n_app.sh yourprefix
 ```
 
 
