@@ -21,7 +21,8 @@ chmod +0777 aks_n_app.sh
 
 ```
 
-## YOu can also pass a prefix that will be used in the name for AKS and the resource group  
+## Another way
+You can also pass a prefix that will be used in the name for AKS and the resource group  
 ```
 sh aks_n_app.sh yourprefix
 ```
