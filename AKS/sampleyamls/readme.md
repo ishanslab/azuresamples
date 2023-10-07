@@ -18,13 +18,13 @@ kubectl apply -f https://raw.githubusercontent.com/ishanslab/azuresamples/main/A
 ```  
 
 **busybox**
-```
+```text
 kubectl apply -f https://raw.githubusercontent.com/ishanslab/azuresamples/main/AKS/sampleyamls/busybox.yaml
 ```  
 
 **ns_sampleapp**
 ```
-kubectl apply -f https://raw.githubusercontent.com/ishanslab/azuresamples/main/AKS/sampleyamls/ns_sampleapp.yaml -n your_namespace
+kubectl apply -f https://raw.githubusercontent.com/ishanslab/azuresamples/main/AKS/sampleyamls/ns_sampleapp.yaml
 ```  
 
 **votingapp**
