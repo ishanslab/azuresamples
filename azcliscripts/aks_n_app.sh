@@ -3,16 +3,6 @@ RG="${PREFIX}-rg"
 LOC="eastus"
 PLUGIN=azure
 AKSNAME="${PREFIX}"
-VNET_NAME="${PREFIX}-vnet"
-AKSSUBNET_NAME="aks-subnet"
-# DO NOT CHANGE FWSUBNET_NAME - This is currently a requirement for Azure Firewall.
-FWSUBNET_NAME="AzureFirewallSubnet"
-FWNAME="${PREFIX}-fw"
-FWPUBLICIP_NAME="${PREFIX}-fwpublicip"
-FWIPCONFIG_NAME="${PREFIX}-fwconfig"
-FWROUTE_TABLE_NAME="${PREFIX}-fwrt"
-FWROUTE_NAME="${PREFIX}-fwrn"
-FWROUTE_NAME_INTERNET="${PREFIX}-fwinternet"
 
 az group create --name $RG --location $LOC
 
